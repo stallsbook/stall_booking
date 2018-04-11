@@ -1,0 +1,48 @@
+.event_blog{
+	text-align:center;
+
+}
+.event-title{
+	/* color:#FF5722; */
+	color:#fff;
+	text-align:left;
+}
+.event_no{
+	text-align:;
+}
+.event_details{
+	margin-top:8px;
+}
+.events{
+	background-color: #333;
+    padding: 5px 0px 20px;
+}
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    /* transition: 0.3s; */
+}
+.evSn2 {
+    padding: 7px 0 0px; 
+    transition: background .5s,transform .5s;
+    -moz-transition: background .5s,-moz-transform .5s;
+    -webkit-transition: background .5s,-webkit-transform .5s;
+    -o-transition: background .5s,-o-transform .5s;
+	border-bottom: 1px solid #D8D8D8;
+	background-color: #f2f1f1;
+}
+.evSn2:hover{
+	background-color:#fff;
+}
+.btn-default1{
+	background-color: darkgoldenrod;
+    color: #fff;
+    box-shadow: 0 2px 0 0 #ddd;
+}
+.evnt_facility span i{
+margin: 10px;
+padding-top: 5%;
+}
+.evnt_facility{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}

@@ -1,0 +1,7 @@
+#ignore files/folders
+**/cgi-bin
+/error_log
+/png.zip
+/robots.txt
+/stall_booking_30_03_2018.zip
+

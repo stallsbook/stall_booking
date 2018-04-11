@@ -1,5 +1,9 @@
 #ignore files/folders
 **/cgi-bin
+**/admin/error_log
+**api/error_log
+**stall_live/error_log
+**superadmin/error_log
 /error_log
 /png.zip
 /robots.txt

@@ -4,6 +4,12 @@
 **api/error_log
 **stall_live/error_log
 **superadmin/error_log
+**stall/
+**stall_live/js
+**stall_live/images
+**stall_live/wp-content
+**stall_live/wp-admin
+**stall_live/wp-includes
 /error_log
 /png.zip
 /robots.txt

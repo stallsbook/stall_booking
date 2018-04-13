@@ -9,10 +9,10 @@
 
     if($city != "")
     {
-	    $selectEvent1 = $cnn -> countrow("SELECT *FROM event_master WHERE event_address like '".$city."%' AND event_id != '$event_id'");
+	    $selectEvent1 = $cnn -> countrow("SELECT *FROM event_master WHERE event_address like '".$city."%' AND event_id != '$event_id' AND status != '0'");
 	    if($selectEvent1 > 0)
 	    { 	
-	   	$selectEvent = $cnn -> getrows("SELECT *FROM event_master WHERE event_address like '".$city."%' AND event_id != '$event_id'");
+	   	$selectEvent = $cnn -> getrows("SELECT *FROM event_master WHERE event_address like '".$city."%' AND event_id != '$event_id' AND status != '0'");
 		while($getEvent = mysqli_fetch_assoc($selectEvent))
 		{	
 	                $data[] = $getEvent;
